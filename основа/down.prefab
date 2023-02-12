@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2519749716178617447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5969933664361273443}
+  - component: {fileID: 4149205212461895553}
+  - component: {fileID: 6739031186661095355}
+  - component: {fileID: 6142077859882342372}
+  - component: {fileID: -8112768877483595309}
+  m_Layer: 0
+  m_Name: down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5969933664361273443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519749716178617447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 5}
+  m_LocalScale: {x: 0.99, y: 0.99, z: 0.99}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4149205212461895553
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519749716178617447}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6739031186661095355
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519749716178617447}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 4
+  m_ReflectionProbeUsage: 3
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 35678930983df5f4ab69734e1f3d2af1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 5969933664361273443}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &6142077859882342372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519749716178617447}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &-8112768877483595309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519749716178617447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6ee9058e246a744b7202dea7907369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat1: {fileID: 0}
+  mat2: {fileID: 0}
+  mat3: {fileID: 0}
+  mat4: {fileID: 0}
+  mat5: {fileID: 0}
+  mat6: {fileID: 2100000, guid: 5c3ec8b518b705342a2c5dd200fe92a0, type: 2}
+  mat7: {fileID: 2100000, guid: b8befa6560a078a4eac1ad172de737f0, type: 2}
+  mat8: {fileID: 2100000, guid: d763bc488f9161746bc89dac150d4f52, type: 2}
+  mat9: {fileID: 2100000, guid: 7b61c459e914ac5419e136647e088a18, type: 2}
+  mat10: {fileID: 2100000, guid: b549c29974030d541b86c1ea57be9bfa, type: 2}
+  mat11: {fileID: 0}
+  mat12: {fileID: 0}
+  mat13: {fileID: 0}
+  mat14: {fileID: 0}
+  mat15: {fileID: 0}
+  mat16: {fileID: 0}
+  mat17: {fileID: 0}
+  mat18: {fileID: 0}
+  mat19: {fileID: 0}
+  mat20: {fileID: 0}
+  mat21: {fileID: 2100000, guid: 28f4b58b486cd8f44b4f7cd1ae7ddce1, type: 2}
+  mat22: {fileID: 0}
+  mat23: {fileID: 0}
+  mat24: {fileID: 0}
+  mat25: {fileID: 0}
+  mat26: {fileID: 0}
+  mat27: {fileID: 0}
+  mat28: {fileID: 0}
+  mat29: {fileID: 0}
+  mat30: {fileID: 0}
+  mat31: {fileID: 0}
+  mat32: {fileID: 0}
+  mat33: {fileID: 0}
+  mat34: {fileID: 0}
+  mat35: {fileID: 0}
+  mat36: {fileID: 0}
+  mat37: {fileID: 0}
+  mat38: {fileID: 0}
+  mat39: {fileID: 0}
+  mat40: {fileID: 0}
+  mat41: {fileID: 0}
